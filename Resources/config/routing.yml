@@ -1,0 +1,3 @@
+shopall24_report_homepage:
+    path:     /hello/{name}
+    defaults: { _controller: Shopall24ReportBundle:Default:index }
