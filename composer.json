@@ -1,6 +1,18 @@
 {
-    "name": "Shopall24/Shopall24ReportBundle",
+    "name": "shopall24/shopall24-report-bundle",
     "description": "Extra reports for OroCRM",
     "homepage": "https://github.com/jhamming/Shopall24ReportBundle",
-    "license": "MIT"
+    "license": "MIT",
+    "autoload": {
+        "psr-0": {
+                "Shopall24\\Bundle\\Shopall24ReportBundle": "src/"
+            }
+        },
+    "target-dir": "src/Shopall24/Bundle/Shopall24ReportBundle",
+    "require": {
+        "php": ">=5.4.4",
+        "oro/platform": "1.*",
+        "oro/crm": "1.*"
+    },
+    "minimum-stability": "stable"
 }
